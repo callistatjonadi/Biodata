@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Form Biodata"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="131dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gambar1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="38dp"
+                android:layout_marginBottom="8dp"
+                android:text="Nama"
+                android:textColor="@color/grey"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                />
+
+            <TextView
+                android:id="@+id/textNama"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:text="Callista Tjonadi"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="38dp"
+                android:layout_marginBottom="8dp"
+                android:text="Email"
+                android:textColor="@color/grey"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textEmail"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginBottom="8dp"
+                android:text="tjonadicallista@gmail.com"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="38dp"
+                android:layout_marginBottom="8dp"
+                android:text="Nomor Telepon"
+                android:textColor="@color/grey"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textHP"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:text="087885095170"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="vertical">-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView7"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginLeft="38dp"-->
+        <!--                android:layout_marginBottom="10dp"-->
+        <!--                android:text="Alamat"-->
+        <!--                android:textColor="@color/black"-->
+        <!--                android:textSize="20sp" />-->
+
+        <!--            <EditText-->
+        <!--                android:id="@+id/editTextTextPersonName2"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="45dp"-->
+        <!--                android:layout_gravity="center"-->
+        <!--                android:layout_marginBottom="10dp"-->
+        <!--                android:background="@drawable/shape"-->
+        <!--                android:ems="16"-->
+        <!--                android:hint="Alamat Lengkap"-->
+        <!--                android:inputType="textPersonName"-->
+        <!--                android:paddingLeft="12dp" />-->
+        <!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="38dp"
+                android:layout_marginBottom="8dp"
+                android:text="Tanggal Lahir"
+                android:textColor="@color/grey"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textTanggal"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginBottom="8dp"
+                android:text="2003-05-28"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Edit" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
