@@ -21,8 +21,7 @@ public class Todo extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(Todo.this,"Berhasil Disimpan",Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(Todo.this,Produktiv.class);
-                startActivity(intent);
+
             }
         });
     }
