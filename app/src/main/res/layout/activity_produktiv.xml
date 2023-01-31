@@ -17,13 +17,13 @@
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
-            android:layout_height="221dp"
+            android:layout_height="275dp"
             app:srcCompat="@drawable/header1" />
 
         <LinearLayout
             android:id="@+id/buttonProfil"
             android:layout_width="match_parent"
-            android:layout_height="160dp"
+            android:layout_height="140dp"
             android:layout_margin="10dp"
             android:background="#D5B697"
             android:orientation="horizontal">
@@ -65,7 +65,7 @@
         <LinearLayout
             android:id="@+id/buttonTodo"
             android:layout_width="match_parent"
-            android:layout_height="160dp"
+            android:layout_height="140dp"
             android:layout_margin="10dp"
             android:background="#D5B697"
             android:orientation="horizontal">
