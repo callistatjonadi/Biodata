@@ -23,5 +23,14 @@ public class Produktiv extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        LinearLayout buttonTodo = (LinearLayout) findViewById(R.id.buttonTodo);
+        buttonTodo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Produktiv.this,Todo.class);
+                startActivity(intent);
+            }
+        });
     }
 }
